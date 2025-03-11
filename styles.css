@@ -1,0 +1,106 @@
+body {
+	background-image: url("https://i.pinimg.com/736x/6a/e7/6f/6ae76f27c9c0a4555e30088e8280e050.jpg");
+	font-family: monospace;
+	color: #343434;
+}
+
+* {
+	border: 1px;
+	min-height: 10px;
+}
+
+.postcard {
+	background-color: rgb(251, 251, 248);
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	margin-top: 200px;
+	padding: 25px;
+	border-radius: 10%;
+	border: 12.5px rgb(123, 7, 7);
+	border-style: dashed;
+	box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.postcard-header {
+	display: flex;
+	border: 10px;
+	border: 10px;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	opacity: 0.2;
+}
+
+.postcard-header img:hover {
+	opacity: 1;
+}
+
+.postcard-header h1 {
+	width: 100%;
+	text-decoration: underline;
+	color: rgb(123, 7, 7);
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: none;
+}
+
+.body-left,
+.body-right {
+	padding: auto;
+}
+
+.body-left {
+	color: #343434;
+}
+
+input {
+	border: 10px;
+	padding: 10px;
+	margin: 1.5px;
+	font-family: monospace;
+	font-style: italic;
+	color: #343434;
+	border-bottom: 1px dotted rgb(123, 7, 7);
+	background-color: rgb(251, 251, 248);
+}
+
+input:hover {
+	border-bottom: 1px solid rgb(123, 7, 7);
+}
+
+input:active {
+	border-bottom: 1px dotted rgb(123, 7, 7);
+}
+
+.postcard-footer {
+	text-align: center;
+	padding-top: 25px;
+}
+
+button {
+	padding: 10px;
+	background-color: rgb(137, 74, 74);
+	font-family: monospace;
+	color: white;
+	font-style: italic;
+	border-radius: 5%;
+}
+
+button:hover {
+	border: 5px solid;
+	border-color: rgb(173, 173, 166) rgb(123, 7, 7) rgb(123, 7, 7) rgb(173, 173, 166);
+}
+
+button:active {
+	border: 5px solid;
+	border-color: rgb(123, 7, 7) rgb(173, 173, 166) rgb(173, 173, 166) rgb(123, 7, 7);
+}
